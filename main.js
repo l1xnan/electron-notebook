@@ -17,7 +17,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({width: 800, height: 600});
 
   // and load the index.html of the app.
-  mainWindow.loadURL('file://' + __dirname + '/index.html');
+  mainWindow.loadURL('file://' + __dirname + '/app/index.html');
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
@@ -33,6 +33,7 @@ function createWindow () {
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
+// 当调用此方法时，让 Electron 初始化和创建浏览器窗口。
 app.on('ready', createWindow);
 
 // Quit when all windows are closed.
