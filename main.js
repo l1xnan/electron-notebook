@@ -1,17 +1,19 @@
 'use strict';
 
 const electron = require('electron');
-// Module to control application life.
+// app 模块会控制应用的生命周期
 const app = electron.app;
-// Module to create native browser window.
+// BrowserWindow 模块创建原生的浏览器窗口
 const BrowserWindow = electron.BrowserWindow;
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
+// mainWindow 对象是你应用的主窗口，被声明成null，
+// 否则当JavaScript垃圾回收掉这个对象时，窗口会被关闭。
 let mainWindow;
 
 function createWindow () {
-  // Create the browser window.
+  // 创建一个浏览器窗口，窗口大小：800×600
   mainWindow = new BrowserWindow({width: 800, height: 600});
 
   // and load the index.html of the app.
