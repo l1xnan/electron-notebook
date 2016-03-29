@@ -31,9 +31,8 @@ function createWindow () {
   });
 }
 
-// This method will be called when Electron has finished
-// initialization and is ready to create browser windows.
-// 当调用此方法时，让 Electron 初始化和创建浏览器窗口。
+// 当 Electron 完成了初始化并且准备创建浏览器窗口的时候
+// 这个方法就被调用
 app.on('ready', createWindow);
 
 // Quit when all windows are closed.
