@@ -4,27 +4,31 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <style type="text/css">
-    body {
+    #wrapper {
         display: flex;
         flex-flow: column;
+        height: 100%;
     }
     #nav {
       background-color: gray;
       font-size: 40px;
       height: 60px;
     }
-    #container {
+    #main {
       display: flex;
       flex: 1;
     }
     #sidebar {
       width: 200px;
       padding: 20px;
+      overflow: auto;
       background-color: orange;
     }
     #contents {
       width: 100%;
       padding: 20px;
+      /*必须，防止中间内容过多，溢出。*/
+      overflow: auto;
       background-color: yellow;
     }
     ul{
@@ -33,8 +37,9 @@
   </style>
 </head>
 <body>
+<div id="wrapper">
   <div id="nav">这是大标题</div>
-  <div id="container">
+  <div id="main">
     <div id="sidebar">
       <h2>左侧边栏</h2>
       <ul>
@@ -67,8 +72,16 @@
         <li>实例文字</li>
         <li>实例文字</li>
         <li>实例文字</li>
+        <li>实例文字</li>
+        <li>实例文字</li>
+        <li>实例文字</li>
+        <li>实例文字</li>
+        <li>实例文字</li>
+        <li>实例文字</li>
+        <li>实例文字</li>
     </ul>
     </div>
   </div>
+</div>
 </body>
 </html>
