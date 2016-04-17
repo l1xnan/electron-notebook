@@ -106,7 +106,42 @@ const Sider  = React.createClass({
 const Content = React.createClass({
     render(){
         return (
-            <div>"Hello World!"</div>
+            <div>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            <p>"Hello World!"</p>
+            </div>
         )
     },
 });
